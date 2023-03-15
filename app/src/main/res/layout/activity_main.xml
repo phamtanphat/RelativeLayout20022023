@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_green"
         android:background="#0863FF"
-        android:textSize="20sp"
+        android:text="Blue"
         android:textColor="#ffffff"
-        android:text="Blue" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/text_view_orange"
@@ -41,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_blue"
         android:background="#FF9800"
-        android:textSize="20sp"
+        android:text="Orange"
         android:textColor="#ffffff"
-        android:text="Orange" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/text_view_gray"
@@ -51,9 +51,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_orange"
         android:background="#B1B1B1"
-        android:textSize="20sp"
+        android:text="Gray"
         android:textColor="#ffffff"
-        android:text="Gray" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/text_view_pink"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_gray"
         android:background="#9D51CC"
-        android:textSize="20sp"
+        android:text="Pink"
         android:textColor="#ffffff"
-        android:text="Pink" />
+        android:textSize="20sp" />
 </RelativeLayout>
