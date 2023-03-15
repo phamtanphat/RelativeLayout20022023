@@ -1,65 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_view_red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 1" />
+        android:background="#f20"
+        android:text="Red"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
 
     <TextView
-        android:layout_alignParentEnd="true"
+        android:id="@+id/text_view_green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 2" />
+        android:layout_below="@id/text_view_red"
+        android:background="#08FF00"
+        android:text="Green"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
 
     <TextView
-        android:layout_alignParentBottom="true"
+        android:id="@+id/text_view_blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 3" />
+        android:layout_below="@id/text_view_green"
+        android:background="#0863FF"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Blue" />
 
     <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
+        android:id="@+id/text_view_orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 4" />
+        android:layout_below="@id/text_view_blue"
+        android:background="#FF9800"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Orange" />
 
     <TextView
-        android:layout_centerHorizontal="true"
+        android:id="@+id/text_view_gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 5" />
+        android:layout_below="@id/text_view_orange"
+        android:background="#B1B1B1"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Gray" />
 
     <TextView
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/text_view_pink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 6" />
-
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View 7" />
-
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View 8" />
-
-    <TextView
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View 9" />
+        android:layout_below="@id/text_view_gray"
+        android:background="#9D51CC"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Pink" />
 </RelativeLayout>
